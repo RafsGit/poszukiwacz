@@ -6,8 +6,6 @@
  * Time: 4:12 PM
  */
 
-class MyApp {
-    public function hello(){
-        echo "Obecny!";
-    }
-}
+require_once './src/MyApp.php';
+
+echo MyApp::hello();
